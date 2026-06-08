@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shadow for depth -->
+    <path
+        android:fillColor="#22000000"
+        android:pathData="M34,34h44v44h-44z" />
+
+    <!-- Third photo (bottom-most, tilted) -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M36,36h40v40h-40z" />
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M39,39h34v28h-34z" />
+
+    <!-- Second photo (middle, slightly offset) -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M31,31h40v40h-40z" />
+    <path
+        android:fillColor="#9E9E9E"
+        android:pathData="M34,34h34v28h-34z" />
+
+    <!-- Top photo (main focus) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,26h40v40h-40z" />
+    <!-- Photo "content" area -->
+    <path
+        android:fillColor="#607D8B"
+        android:pathData="M29,29h34v28h-34z" />
+    <!-- Stylized mountain/photo icon inside the top photo -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,52l7,-9l5,6l3,-4l8,10z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,36m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+
+    <!-- A "binder" clip or line indicating they are joined -->
+    <path
+        android:strokeColor="#FF4081"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M22,26L22,70C22,74 26,78 30,78L74,78" />
+</vector>
