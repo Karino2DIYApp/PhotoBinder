@@ -24,21 +24,25 @@
         android:fillColor="#9E9E9E"
         android:pathData="M34,34h34v28h-34z" />
 
-    <!-- Top photo (main focus) -->
-    <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M26,26h40v40h-40z" />
-    <!-- Photo "content" area -->
-    <path
-        android:fillColor="#607D8B"
-        android:pathData="M29,29h34v28h-34z" />
-    <!-- Stylized mountain/photo icon inside the top photo -->
-    <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M32,52l7,-9l5,6l3,-4l8,10z" />
-    <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M56,36m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    <!-- Top photo replaced with Camera-like object -->
+    <group
+        android:translateX="26"
+        android:translateY="26"
+        android:scaleX="1.666"
+        android:scaleY="1.666">
+        <!-- Camera body -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M9,2L7.17,4L4,4c-1.1,0 -2,0.9 -2,2v12c0,1.1 0.9,2 2,2h16c1.1,0 2,-0.9 2,-2L22,6c0,-1.1 -0.9,-2 -2,-2h-3.17L15,2L9,2zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5z"/>
+        <!-- Lens (filling the hole) -->
+        <path
+            android:fillColor="#607D8B"
+            android:pathData="M12,12m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"/>
+        <!-- Lens center -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M12,12m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    </group>
 
     <!-- A "binder" clip or line indicating they are joined -->
     <path
